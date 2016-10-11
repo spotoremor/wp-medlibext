@@ -1,0 +1,31 @@
+body#media-upload.wp-core-ui .media-toolbar{
+    border: 0 solid #ddd;
+    height: 60px;
+    left: 0;
+    overflow: hidden;
+    padding: 0 16px;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+body#media-upload.wp-core-ui .attachment{
+    -moz-user-select: none;
+    box-sizing: border-box;
+    color: #444;
+    cursor: pointer;
+    float: left;
+    list-style: outside none none;
+    margin: 0;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    width: 20%;
+}
+
+body#media-upload.wp-core-ui .attachment.show{
+    display: block;
+}
+body#media-upload.wp-core-ui .attachment.hide{
+    display: none;
+}

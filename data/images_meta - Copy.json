@@ -1,0 +1,75 @@
+{
+    "banner": {
+        "banner01.jpg":{
+            "meta": {
+                "url": "http://dws.nowcomwebsites.net/wp-content/plugins/dc_image_library/data/images/banner01.jpg",
+                "title": "Banner 01"
+            }
+        },
+        "banner02.jpg":{
+            "meta": {
+                "url": "http://dws.nowcomwebsites.net/wp-content/plugins/dc_image_library/data/images/banner02.jpg",
+                "title": "Banner 02"
+            }
+        },
+        "banner03.jpg":{
+            "meta": {
+                "url": "http://dws.nowcomwebsites.net/wp-content/plugins/dc_image_library/data/images/banner03.jpg",
+                "title": "Banner 03"
+            }
+        },
+        "banner04.jpg":{
+            "meta": {
+                "url": "http://dws.nowcomwebsites.net/wp-content/plugins/dc_image_library/data/images/banner04.jpg",
+                "title": "Banner 04"
+            }
+        },
+        "banner05.jpg":{
+            "meta": {
+                "url": "http://dws.nowcomwebsites.net/wp-content/plugins/dc_image_library/data/images/banner05.jpg",
+                "title": "Banner 05"
+            }
+        }
+    },
+    "car": {
+        "car01.jpg":{
+            "meta": {
+                "url": "http://cromero09staging.dws.nowcomwebsites.net/wp-content/plugins/dc_image_library/data/images/car01.jpg",
+                "title": "Car 01"
+            }
+        },
+        "car02.jpg":{
+            "meta": {
+                "url": "http://cromero09staging.dws.nowcomwebsites.net/wp-content/plugins/dc_image_library/data/images/car02.jpg",
+                "title": "Car 02"
+            }
+        },
+        "car03.jpg":{
+            "meta": {
+                "url": "http://cromero09staging.dws.nowcomwebsites.net/wp-content/plugins/dc_image_library/data/images/car03.jpg",
+                "title": "Car 03"
+            }
+        }
+    },
+    "people": {
+        "people01.jpg":{
+            "meta": {
+                "url": "http://cromero09staging.dws.nowcomwebsites.net/wp-content/plugins/dc_image_library/data/images/people01.jpg",
+                "title": "People 01"
+            }
+        },
+        "people02.jpg":{
+            "meta": {
+                "url": "http://cromero09staging.dws.nowcomwebsites.net/wp-content/plugins/dc_image_library/data/images/people02.jpg",
+                "title": "People 02"
+            }
+        },
+        "people03.jpg":{
+            "meta": {
+                "url": "http://cromero09staging.dws.nowcomwebsites.net/wp-content/plugins/dc_image_library/data/images/people03.jpg",
+                "title": "People 03"
+            }
+        }
+    }
+    
+}
