@@ -11,13 +11,20 @@ jQuery(document).ready(function ($) {
         $("li[data-types*='" + selected + "']").removeClass('hide').addClass('show');
     }
 
+    $('#dc_imalibext_form').submit(function(){
+        
+    });
 });
 
-function DCInsertImage(imageUrl) {
+function xDCInsertImage(imageUrl) {
     var win = window.dialogArguments || opener || parent || top;
     if (win.document.location.search.indexOf("huge_it") > 0) {
         win.wp.media.editor.send.attachment({}, {url: imageUrl});
     } else {
         win.send_to_editor("<img src=\"" + imageUrl + "\" />");
     }
+}
+
+function DCInsertImage(imageUrl) {
+    jQuery('#image_filename').val(imageUrl);
 }
