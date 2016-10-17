@@ -33,6 +33,9 @@ class DC_Image_Library_Core{
 
         $this->loader->add_filter('media_upload_tabs', $plugin_admin, 'upload_tab');
         $this->loader->add_action('media_upload_dcimglibtab', $plugin_admin, 'upload_form');
+        $this->loader->add_filter('wp_get_attachment_url', $plugin_admin, 'wp_get_attachment_url', 10, 2);
+        $this->loader->add_filter( 'get_attached_file', $plugin_admin, 'get_attached_file', 10, 2);
+
     }
     
     public function run() {
